@@ -19,3 +19,24 @@
 			box-shadow: 0 0 10px rgba(0, 0, 0, 1);
 			overflow-y:auto;
 	 }
+	 
+.container button {
+			margin-right: 10px;
+			padding: 10px 20px;
+			background-color: #008080;
+			color: #fff;
+			text-decoration: none;
+			border-radius: 5px;
+	}
+.container button:hover{
+			margin-right: 10px;
+			padding: 10px 20px;
+			background-color: black;
+			color: #fff;
+			text-decoration: none;
+			border-radius: 5px;
+	}
+	 
+ .upload-button {
+			margin-top: 15px;
+	}
