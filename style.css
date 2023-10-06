@@ -9,12 +9,22 @@ header.button{
 	border-radius:5px;
 }
 
-		.container {
-			max-width: 800px;
-			margin: 20px auto;
-			background-color: grey;
-			padding: 100px;
-			border-radius: 10px;
-			background-color: grey;
-			box-shadow: 0 0 10px black);
-		}
+.container {
+	max-width: 800px;
+	margin: 20px auto;
+	background-color: grey;
+	padding: 100px;
+	border-radius: 10px;
+	background-color: grey;
+	box-shadow: 0 0 10px black);
+	}
+
+.header button {
+		background-color: blue;
+		color: black;
+		padding: 10px 20px;
+		border: 1px solid grey;
+		cursor: pointer;
+		border-radius:10px;}
+.header button:hover {
+		background-color: green;	}
