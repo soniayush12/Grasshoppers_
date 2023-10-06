@@ -1,35 +1,3 @@
-header {
-	text-align:center;
-	background-color:black;
-	color:white;
-	padding:30px;
-}
-header.button{
-	margin-t:20px;
-	border-radius:5px;
-}
- body {
-	 background-color:grey;
- }
-.container {
-	max-width: 80%;
-	margin: 20px auto ;
-	padding: 100px;
-	border-radius: 10px;
-	box-shadow: 0 0 10px black);
-	background-color:white;
-	border:2px solid black;
+body {
+	font-family: 'Arial', sans-serif;
 	}
-
-
-
- button {
-		background-color: Grey;
-		color: black;
-		padding: 10px 20px;
-		border: 1px solid grey;
-		cursor: pointer;
-		border-radius:10px;}
- button:hover {
-		background-color: white;	}
-		
