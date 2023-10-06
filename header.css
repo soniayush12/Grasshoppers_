@@ -2,7 +2,7 @@ header {
 	text-align:center;
 	background-color:black;
 	color:white;
-	padding:30px;
+	padding:20px;
 }
 header button {
 		background-color: Grey;
@@ -13,4 +13,12 @@ header button {
 		border-radius:10px;}
 header button:hover {
 		background-color: white;	}
-		
+
+
+footer {
+	text-align:center;
+	background-color:black;
+	color:white;
+	padding:10px;
+	
+}
