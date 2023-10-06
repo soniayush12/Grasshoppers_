@@ -4,3 +4,17 @@ header {
 	color:white;
 	padding:30px;
 }
+header.button{
+	margin-t:20px;
+	border-radius:5px;
+}
+
+		.container {
+			max-width: 800px;
+			margin: 20px auto;
+			background-color: grey;
+			padding: 100px;
+			border-radius: 10px;
+			background-color: grey;
+			box-shadow: 0 0 10px black);
+		}
