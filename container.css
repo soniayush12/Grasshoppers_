@@ -1,6 +1,6 @@
 .container {
 			left-margin:10px;
-			width: 50%;
+			width: 45%;
 			height: 400px;
 			display: block;
 			float:left;
@@ -43,7 +43,7 @@
 
 
 aside {
-	       width:20%;
+	       width:25%;
 		   height:40%;
 			font-style: italic;
 			display: block;
