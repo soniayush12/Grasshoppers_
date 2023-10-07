@@ -4,7 +4,7 @@
 			height: 400px;
 			display: block;
 			float:left;
-			margin: 20px auto;
+			margin: 10px auto;
 			background-color: grey;
 			padding: 50px;
 			border-radius: 10px;
@@ -48,7 +48,7 @@ aside {
 			font-style: italic;
 			display: block;
 			float:right;
-			margin: 20px auto;
+			margin: 10px auto;
 			background-color: grey;
 			padding: 10%;
 			border-radius: 10px;
