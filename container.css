@@ -1,5 +1,9 @@
 .container {
-			max-width: 80%;
+			left-margin:10px;
+			width: 50%;
+			height: 400px;
+			display: block;
+			float:left;
 			margin: 20px auto;
 			background-color: grey;
 			padding: 50px;
@@ -9,8 +13,8 @@
 		}
 		
 .noticecontainer {
-			max-width: 80%;
-			max-height: 150px;
+			width: 80%;
+			height: 150px;
 			margin: 20px auto;
 			background-color: grey;
 			padding: 10px;
@@ -29,6 +33,37 @@
 			border:3px solid black;
 	}
 .container button:hover{
+			margin-right: 10px;
+			padding: 10px 20px;
+			background-color: black;
+			color: #fff;
+			border-radius: 5px;
+	}
+
+
+
+aside {
+	       width:20%;
+		   height:40%;
+			font-style: italic;
+			display: block;
+			float:right;
+			margin: 20px auto;
+			background-color: grey;
+			padding: 10%;
+			border-radius: 10px;
+			background-color: rgba(255, 255, 255, 0.7);
+			box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+aside button {
+			margin-right: 10px;
+			padding: 10px 20px;
+			background-color: #008080;
+			color: black;
+			border-radius: 10px;
+			border:3px solid black;
+	}
+aside button:hover{
 			margin-right: 10px;
 			padding: 10px 20px;
 			background-color: black;

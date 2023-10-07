@@ -11,3 +11,13 @@ nav {
 #navtwo {
 	text-align:right;
 }
+
+aside {
+	display: block;
+  width: 30%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float:right;
+  font-style: italic;
+  background-color: lightgray;
+}
