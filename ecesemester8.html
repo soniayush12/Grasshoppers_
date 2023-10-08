@@ -1,0 +1,138 @@
+
+
+
+<html>
+<head>
+<Title>NOTEWEB-ECE</title>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="icon.jpg">
+<link rel="stylesheet" href="container.css">
+<link rel="stylesheet" href="header.css">
+
+<style>
+ .container li {
+        border: 2px solid black;
+		color:black;
+        margin-bottom: 20px;
+        padding: 20px;
+        background-color: white; 
+        border-radius: 10px;
+        transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s, border-color 0.3s;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+.container li:hover {
+        background-color: grey; /* Darker background on hover */
+        transform: scale(1.03);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6); /* Stronger shadow on hover */
+        border-color: #0077b6; /* Accent border color on hover (blue) */
+    }
+
+</style>
+</head>
+<body>
+<header>
+	<h1><img src="icon.jpg" height="40px" width="45px">NOTEWEB - ECE</h1>
+	<h3>Your College Notes library <h3>
+	<h4>Semester 8</h4>
+	<nav>
+		<div id="navone">
+			<img src="signin.jpg" height="37" width="40"></img>
+			<a href="index.html"><img src="home.jpg" height="37" width="40"></img></a>
+		</div>
+		
+		<div id="navtwo">
+			<a href="CSE.html"><button>CSE</button></a>
+			<a href="ECE.html"><button>ECE</button></a>
+		</div>
+	</nav>
+</header>
+
+<aside>
+		<div class="upload" style="	margin-top: 10px; text-align: center;">
+			<h3 style="font-style: italic;"> You can also upload your own notes <h3>
+			<a href="uploadnotesform.html">
+			<Button><h3>Upload Notes</h3></button></a><br><br>
+			<h3 style="font-style: italic;"> You can also upload your own assignments <h3>
+			<a href="uploadasmntform.html">
+			<Button><h3>Upload Assignments</h3></button></a>
+		</div>
+</aside>
+
+<section>
+	<div class="container" style="text-align:center;">
+    <main>
+        <ul>
+			<a href="MA101"><li>
+                <img class="cover-image" src="maths.jpg" alt="sub 1 Cover" height="100" width="100">
+                <div>
+                    <h2>Mathematics</h2>
+                    <p>Code = MA101</p>
+                </div>
+            </li></a>
+			<a href="HM101.html"><li>
+                <img class="cover-image" src="english.jpg" alt="sub 2 Cover" height="100" width="100">
+                <div>
+                    <h2>English for Communication </h2>
+                    <p>Code = HM101</p>
+                    </div>
+            </li></a>
+			 <a href="ME101.html"><li>
+                 <img class="cover-image" src="mech.jpg" alt="sub 3 Cover" height="100" width="100">
+                <div>
+                    <h2>Basics of Mehanical Engineering</h2>
+                    <p>Code = ME101</p>
+                </div>
+            </li></a>
+            <a href="CS101.html"><li>
+                 <img class="cover-image" src="c.jpg" alt="sub 4 Cover" height="100" width="100">
+                <div>
+                    <h2>Introduction to Computer Programming </h2>
+                    <p>Code = CS101</p>
+                    </div>
+            </li></a>
+			 <a href="PH101.html"><li>
+                <img class="cover-image" src="physics.jpg" alt="Book 5 Cover" height="100" width="100">
+                <div>
+                    <h2>Physics</h2>
+                    <p>Code = PH101</p>
+                </div>
+            </li></a>
+            <a href="ME101.html"><li>
+                 <img class="cover-image" src="enggpractices.jpg" alt="sub 6 Cover" height="100" width="100">
+                <div>
+                    <h2>Engineering Practice</h2>
+                    <p>Code = ME102</p>
+                    </div>
+            </li></a>
+            <!-- Add more items with details -->
+        </ul>
+    </main>
+	</div>
+</section>
+<br>
+
+<div class="noticecontainer" >
+	<h3 style=" text-align:center;">NOTICE</h3>
+	<div style="padding:10px;">
+	<br><li> The deadline to submit the assignment of maths is 10th October 2023.</li>
+	<br><li> The schedlie of CT1 have been uploaded. </li>
+	<br><li> The notes of Mechanical Engineering(Energy Sources and IC Engine) have been uploaded on 4th october.</li>
+	<br><li> Today _ English Class has cancelled.</li>
+	<br><li> Today _teacher will take the extra class.</li>
+	<br><li> New assignment of maths has been uploaded by mam on 3rd october.</li>
+	<br><li> On tuesday(10th october) _ both batch 1 and batch 2 of CSE will have the lab of physics from 2:00 PM - 05:00 PM. </li>
+	<br><li> The link for google classroom has been uploaded for both the batches (CSE and ECE).</li>
+	<br></div>
+</div>
+<footer>
+<h3>Made with <img src="heart.gif" height="20" width="20"></img> by team Grasshoppers</h3>
+
+<p style="color:grey;">© 2023 Atrang : All Rights Researved</p>
+
+</footer>
+
+	
+	</body>
+	</html>
