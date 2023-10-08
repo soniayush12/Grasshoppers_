@@ -1,0 +1,111 @@
+
+<html>
+<head>
+<Title>NOTEWEB-Upload_form</title>
+
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="icon.jpg">
+<link rel="stylesheet" href="container.css">
+<link rel="stylesheet" href="header.css">
+
+</head>
+<body>
+
+<header>
+<h1>
+<img src="icon.jpg" height="40px" width="45px">NOTEWEB</h1>
+<h3>Your College Notes library <h3>
+	
+	<nav>
+		<div id="navone">
+			<img src="signin.jpg" height="37" width="40"></img>
+			<a href="index.html"><img src="home.jpg" height="40" width="40"></img></a>
+		</div>
+		
+		<div id="navtwo">
+			<a href="CSE.html"><button>CSE</button></a>
+			<a href="ECE.html"><button>ECE</button></a>
+		</div>
+	</nav>
+</header>
+
+
+<body>
+     <div class="container">
+        <h1> Upload Notes</h1>
+        <form id="fileUploadForm" >
+            
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" required><br><br>
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="type">Discription:</label>
+            <input type="text" id="type" name="type" required><br><br>
+
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required><br><br>
+
+            <label for="fileInput">File:</label>
+            <input type="file" id="fileInput" name="fileInput" accept=".txt,.pdf,.jpg,.jpeg,.png,.doc" required><br><br>
+
+            <!-- Dropdown select for semester -->
+            <label for="semester">Semester:</label><tab>
+            <select id="semester" name="semester" required>
+                <option value="1">Semester 1</option>
+                <option value="2">Semester 2</option>
+                <option value="3">Semester 3</option>
+				<option value="4">Semester 4</option>
+				<option value="5">Semester 5</option>
+				<option value="6">Semester 6</option>
+				<option value="7">Semester 7</option>
+				<option value="8">Semester 8</option>
+		
+            </select>
+            <br><br>
+
+
+			 <label for="branch">Branch:</label>
+            <select id="branch" name="branch" required>
+                <option value="CSE">CSE</option>
+                <option value="ECE">ECE</option>
+               </select>
+            <br><br>
+
+            <button type="button" id="uploadButton" action="upload.php"> Upload File </button>
+        </form>
+    </div>
+
+    <aside>
+        <h3>"Education is the passport to the future, for tomorrow belongs to those who prepare for it today."</h3>
+        <p> - Malcolm X</p>
+    
+    </aside>
+
+    <script>
+        document.getElementById('uploadButton').addEventListener('click', async function () {
+            const subject = document.getElementById('subject').value;
+            const name = document.getElementById('name').value;
+            const type = document.getElementById('type').value;
+            const date = document.getElementById('date').value;
+            const fileInput = document.getElementById('fileInput');
+            const file = fileInput.files[0];
+            
+  
+            const semester = document.getElementById('semester').value;
+         
+            const branch = document.getElementById('branch').value;
+             
+            if (file) {
+              
+                console.log(`Uploaded file: ${file.name}`);
+            } else {
+                alert('Please select a file to upload.');
+            }
+        });
+    </script>
+
+
+</body>
+</html>
