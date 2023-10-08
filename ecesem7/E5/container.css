@@ -1,0 +1,95 @@
+.container {
+			left-margin:10px;
+			width: 51%;
+			height: 500px;
+			display: block;
+			float:left;
+			margin: 10px auto;
+			margin-left:40px;
+			overflow-y:scroll;
+			padding: 50px;
+			border-radius: 10px;
+			background-color: rgba(255, 255, 255, 0.7);
+			box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+			font-size: 20px;
+			 width: 40%;
+			
+			
+		}
+		
+.noticecontainer {
+			width: 80%;
+			height: 150px;
+			margin: 20px auto;
+			padding: 10px;
+			border-radius: 10px;
+			background-color: rgba(255, 255, 255, 0.7);
+			box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+			overflow-y:auto;
+	 }
+	 
+.container button {
+			margin-right: 10px;
+			padding: 10px 20px;
+			background-color: #008080;
+			color: black;
+			border-radius: 10px;
+			border:3px solid black;
+	}
+.container button:hover{
+			margin-right: 10px;
+			padding: 10px 20px;
+			background-color: black;
+			color: #fff;
+			border-radius: 5px;
+	}
+
+
+
+aside {
+	       width:20%;
+		   height:335PX;
+			font-style: italic;
+			display: block;
+			float:right;
+			margin: 10px auto;
+			margin-right:40px;
+			background-color: grey;
+			padding: 10%;
+			border-radius: 10px;
+			background-color: rgba(255, 255, 255, 0.7);
+			box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+aside button {
+			margin-right: 10px;
+			padding: 10px 20px;
+			background-color: #008080;
+			color: black;
+			border-radius: 10px;
+			border:3px solid black;
+	}
+aside button:hover{
+			margin-right: 10px;
+			padding: 10px 20px;
+			background-color: black;
+			color: #fff;
+			border-radius: 5px;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
