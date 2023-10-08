@@ -41,7 +41,7 @@
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required><br><br>
 
-            <label for="type">Type:</label>
+            <label for="type">Discription:</label>
             <input type="text" id="type" name="type" required><br><br>
 
             <label for="date">Date:</label>
@@ -61,8 +61,7 @@
 				<option value="6">Semester 6</option>
 				<option value="7">Semester 7</option>
 				<option value="8">Semester 8</option>
-				
-                <!-- Add more semester options as needed -->
+		
             </select>
             <br><br>
 
@@ -79,9 +78,9 @@
     </div>
 
     <aside>
-        <h2>Side Content</h2>
-        <p>Additional content goes here.</p>
-        <button>Button</button>
+        <h3>"Education is the passport to the future, for tomorrow belongs to those who prepare for it today."</h3>
+        <p> - Malcolm X</p>
+    
     </aside>
 
     <script>
@@ -92,9 +91,25 @@
             const date = document.getElementById('date').value;
             const fileInput = document.getElementById('fileInput');
             const file = fileInput.files[0];
+<<<<<<< HEAD
             const semester = document.getElementById('semester').value;
             const branch = document.getElementById('branch').value;
            );
+=======
+            
+  
+            const semester = document.getElementById('semester').value;
+         
+            const branch = document.getElementById('branch').value;
+             
+            if (file) {
+              
+                console.log(`Uploaded file: ${file.name}`);
+            } else {
+                alert('Please select a file to upload.');
+            }
+        });
+>>>>>>> eda800dbe5c44e5d385252b8bc691ffe64811acc
     </script>
 
 
