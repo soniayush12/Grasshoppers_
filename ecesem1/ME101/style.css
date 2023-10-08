@@ -1,0 +1,13 @@
+body {
+	font-family: 'Comic Sans MS',  sans-serif; 
+	}
+nav {
+	display:display:inline-block;
+}
+
+#navone {
+	text-align:left;
+}
+#navtwo {
+	text-align:right;
+}
