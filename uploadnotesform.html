@@ -92,46 +92,9 @@
             const date = document.getElementById('date').value;
             const fileInput = document.getElementById('fileInput');
             const file = fileInput.files[0];
-            
-            // Dropdown select for semester
             const semester = document.getElementById('semester').value;
-            
-            // Checkbox for branch
             const branch = document.getElementById('branch').value;
-			
-            
-            if (subject && name && type && date && file) {
-                // Create a FormData object to send form data
-                const formData = new FormData();
-                formData.append('subject', subject);
-                formData.append('name', name);
-                formData.append('type', type);
-                formData.append('date', date);
-                formData.append('file', file);
-                
-                // Add semester and branch to the FormData
-                formData.append('semester', semester);
-                formData.append('branch', branch);
-
-                try {
-                    // Send the data to the server using a fetch request
-                    const response = await fetch('/send-email', {
-                        method: 'POST',
-                        body: formData,
-                    });
-
-                    if (response.ok) {
-                        alert('Email sent successfully!');
-                    } else {
-                        alert('Failed to send email.');
-                    }
-                } catch (error) {
-                    console.error('Error:', error);
-                }
-            } else {
-                alert('Please fill out all fields and select a file to upload.');
-            }
-        });
+           );
     </script>
 
 
